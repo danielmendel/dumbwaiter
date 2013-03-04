@@ -1,0 +1,20 @@
+{
+  "name": "dumbwaiter",
+  "version": "0.0.1",
+  "description": "Simple static asset server for local directories",
+  "author": "Daniel Mendel <daniel@danielmendel.com> (http://danielmendel.com)",
+  "main": "index.js",
+  "dependencies": {
+    "connect": "~2.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "index.js",
+  "repository": { 
+      "type" : "git"
+    , "url"  : "http://github.com/danielmendel/dumbwaiter.git"
+  },
+  "license": "BSD"
+}
