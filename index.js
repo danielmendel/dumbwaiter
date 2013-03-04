@@ -6,6 +6,6 @@ var connect  = require('connect')
   , PORT     = process.argv[3] || 3000
   , server   = connect()
 
-server.use( connect.static( dirPath )
+server.use( connect.static( dirPath ) )
 server.listen( PORT )
 console.log('serving ' + dirPath + ' on port ' + PORT + ' ...')
